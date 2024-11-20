@@ -22,7 +22,6 @@ services:
   nginx:
     image: nginx:1.27.2-alpine3.20
     container_name: nginx
-    restart: on-failure
     ports:
       - "80:80"
       - "443:443"
